@@ -240,6 +240,11 @@ module Hub
           msg.puts "#{cc}"
           msg.puts "#{cc} Write a message for this pull request. The first block"
           msg.puts "#{cc} of text is the title and the rest is description."
+          msg.puts "###################"
+          msg.puts "#{cc} Who reviews"
+          msg.puts "- [] @username"
+          msg.puts "- [] @username"
+          msg.puts "- [*] @username"
         }
       end
 
